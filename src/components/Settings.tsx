@@ -24,10 +24,6 @@ function Settings() {
           onChange={(e) => setRole(e.target.value)}
         />
       </div>
-      <div>
-        <button>Copy Text</button>
-        <button>Download PDF</button>
-      </div>
     </div>
   );
 }
