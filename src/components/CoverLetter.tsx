@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import AppState from '../Store';
 
 function CoverLetter() {
-  const { orgName, role, setOrgName, setRole } = useContext(AppState);
+  const { orgName, role } = useContext(AppState);
 
   return (
     <div className="preview" contentEditable="true">

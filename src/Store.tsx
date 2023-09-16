@@ -8,6 +8,15 @@ import { createContext } from 'react';
 //   setAppState: () => {},
 // };
 
-const AppContext = createContext({});
+const AppContext = createContext({
+  orgName: '',
+  role: '',
+  setOrgName: (value: string) => {
+    console.log(value);
+  },
+  setRole: (value: string) => {
+    console.log(value);
+  },
+});
 
 export default AppContext;
