@@ -47,6 +47,10 @@
   margin-bottom: 10px;
 }
 
+button {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 480px) {
   .container {
     flex-direction: column;
