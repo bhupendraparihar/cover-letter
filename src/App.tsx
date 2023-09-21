@@ -4,6 +4,7 @@ import CoverLetter from './components/CoverLetter';
 import Settings from './components/Settings';
 import AppContext from './Store';
 import Summary from './components/Summary';
+import GenericCoverLetter from './components/GenericCoverLetter';
 
 function App() {
   const [orgName, setOrgName] = useState('JP Morgan Chase');
@@ -24,6 +25,7 @@ function App() {
             <Settings />
           </div>
           <div className="right">
+            <GenericCoverLetter />
             <Summary />
             <CoverLetter />
           </div>
